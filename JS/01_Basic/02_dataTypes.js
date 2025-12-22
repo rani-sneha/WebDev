@@ -14,7 +14,7 @@ console.log(+true) //1 basically converts to true to number
 console.log(typeof (+true)); //number
 console.log(+""); //0
 
-var1=var2=var4 =44
+
 
 console.log(null >0); // false
 console.log(null==0); // false
@@ -28,9 +28,17 @@ null >= 0  → true
 null > 0  —> false 
 */
 
-// === strict check
+// === strict check also checks data type
 // Whenever comparing always make sure that the data types of both the variables are same
 
+const num=7443939484775n // takes in big int as data type
+
+const myFunction =function(){
+    console.log("Hello World");
+    
+}
+
+console.log(typeof myFunction);
 
 
 
