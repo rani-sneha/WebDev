@@ -16,6 +16,13 @@ console.log(gameName.indexOf('e')) //always take the first occueing instance
 const newString=gameName.substring(0,4)
 
 let str1= "HareKrishna"
-const str2 = str1.slice(-8,4)
+const str3 = gameName.slice(-8,4) //umb
+const str2 = str1.slice(-8,4) //e
 console.log(str2);
+/*
+The negative value will start from -1 and from behind, 
+the 
 
+
+Substring - if you give negative value in the start, it will start from 0
+*/
