@@ -60,8 +60,7 @@ form label{
     width:35px;
     padding: .02em;
     background-color: var(--accent-color);
-    fill:var(--base-color);
-    color:var(--base-color);
+    color:var(--red-color);
     border-radius: 10px 0 0 10px;
     display: flex;
     justify-content: center;
@@ -141,4 +140,13 @@ a:hover{
     h1{
         font-size:2rem;
     }
+}
+form div.incorrect label{
+    background-color: var(--red-color);
+    color: var(--input-color);
+}
+form div.incorrect input{
+    border: 2px solid var(--red-color);
+    background-color: var(--input-color)
+    
 }
